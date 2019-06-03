@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="false" name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber">
+        <classes>
+            <class name="com.updateclassiccrm.testcases.HomePageTest">
+                <methods>
+                    <include name="clickOnContact"/>
+                    <include name="addNewContact"/>
+                    <include name="clickOnDeals"/>
+                    <include name="clickOnTasks"/>
+                </methods>
+            </class>
+            <class name="com.updateclassiccrm.testcases.LoginPageTest">
+                <methods>
+                    <include name="urlTest"/>
+                    <include name="titleTest"/>
+                    <include name="logoTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
