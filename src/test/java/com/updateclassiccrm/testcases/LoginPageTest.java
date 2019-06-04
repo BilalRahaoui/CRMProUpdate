@@ -1,5 +1,6 @@
 package com.updateclassiccrm.testcases;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,9 +12,9 @@ import org.testng.asserts.SoftAssert;
 
 public class LoginPageTest {
     private WebDriver driver;
-
-    @BeforeMethod
-    public void setup() {
+    @Parameters({"url"})
+    @BeforeMethod(groups = {"End To End","Sanity"})
+    public void setup(String url) {
         //Setup relative path to browser to start testing using selected browser
         String chromeDriverPath = "src/main/resources/WebDrivers/chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
@@ -22,10 +23,10 @@ public class LoginPageTest {
         //maximize window
         driver.manage().window().maximize();
         //navigate to application utl
-        driver.get("https://www.crmpro.com/index.html");
+        driver.get(url);
     }
 
-    @AfterMethod
+    @AfterMethod(groups = {"End To End","Sanity"})
     public void teardown() {
         //delete cookies and close browser
         driver.manage().deleteAllCookies();
@@ -33,7 +34,7 @@ public class LoginPageTest {
         driver = null;
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"End To End"})
     public void urlTest() {
         //actualURL should return valid application url
         String actualURL = driver.getCurrentUrl();
@@ -41,7 +42,7 @@ public class LoginPageTest {
         Assert.assertEquals(actualURL, expectedURL, "URL not match");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = {"End To End"})
     public void titleTest() {
         //actualTitle should return valid application title
         String actualTitle = driver.getTitle();
@@ -49,14 +50,14 @@ public class LoginPageTest {
         Assert.assertEquals(actualTitle, expectedTitle, "Title not match");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = {"Sanity"})
     public void logoTest() {
         //Test if logo appear in home page
         WebElement logo = driver.findElement(By.xpath("//img[@class='img-responsive']"));
         Assert.assertTrue(logo.isDisplayed(), "Logo is not displayed");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4, groups = {"End To End"})
     public void loginTest() {
         //Testing login functionality with valid username <rahaouitesting> and valid password <Bmn123456>
         WebElement loginTextBox = driver.findElement(By.name("username"));
@@ -84,5 +85,6 @@ public class LoginPageTest {
         soft.assertTrue(logoCrmInLoginPageIsDisplayed, "Logo is not visible, so login test failed");
         soft.assertAll();
     }
+
 
 }
