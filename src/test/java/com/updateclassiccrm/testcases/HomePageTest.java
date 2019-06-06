@@ -1,46 +1,40 @@
 package com.updateclassiccrm.testcases;
 
+import com.updateclassiccrm.base.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class HomePageTest{
+public class HomePageTest extends TestBase {
 
-    private WebDriver driver;
-    @Parameters({"url"})
-    @BeforeMethod(groups = {"End To End","Sanity"})
-    public void setupAndLogin(String url) {
-        //Setup relative path to browser to start testing using selected browser
-        String chromeDriverPath = "src/main/resources/WebDrivers/chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-        //Initialize webdriver for selected browser
-        driver = new ChromeDriver();
-        //maximize window
-        driver.manage().window().maximize();
-        //navigate to application utl
-        driver.get(url);
+
+    public HomePageTest() throws Exception {
+        super();
+    }
+
+    @BeforeMethod
+    public void setupAndLogin() {
+        initialize();
         //Perform login with valid data
         WebElement loginTextBox = driver.findElement(By.name("username"));
         WebElement passwordTextBox = driver.findElement(By.name("password"));
         WebElement loginButtonSubmit = driver.findElement(By.xpath("//input[@value='Login']"));
-        loginTextBox.sendKeys("rahaouitesting");
-        passwordTextBox.sendKeys("Bmn123456");
+        //Sending given data to login form
+        String userName=properties.getProperty("UserName");
+        String passWord = properties.getProperty("Password");
+        loginTextBox.sendKeys(userName);
+        passwordTextBox.sendKeys(passWord);
         loginButtonSubmit.submit();
     }
 
-    @AfterMethod(groups = {"End To End","Sanity"})
+    @AfterMethod
     public void teardown() {
-        //delete cookies and close browser
-        driver.manage().deleteAllCookies();
-        driver.quit();
-        driver = null;
+        terminate();
     }
 
-    @Test(priority = 5, groups = {"End To End"})
+    @Test(priority = 5)
     public void clickOnContact() {
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
@@ -50,7 +44,7 @@ public class HomePageTest{
         Assert.assertTrue(status, "Click on contact failed,status is not displayed");
     }
 
-    @Test(priority = 6, groups = {"Sanity"})
+    @Test(priority = 6)
     public void addNewContact() {
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
@@ -71,7 +65,7 @@ public class HomePageTest{
         Assert.assertTrue(expectedNameText.contains(actualNameText), "Test failed because name is not match");
     }
 
-    @Test(priority = 7, groups = {"Sanity"})
+    @Test(priority = 7)
     public void clickOnDeals() {
         driver.switchTo().frame("mainpanel");
         WebElement deals = driver.findElement(By.xpath("//a[@title='Deals']"));
@@ -80,7 +74,7 @@ public class HomePageTest{
         Assert.assertTrue(keyword, "Click on Deals failed,keyword is not displayed");
     }
 
-    @Test(priority = 8, groups = {"Sanity"})
+    @Test(priority = 8)
     public void clickOnTasks() {
         driver.switchTo().frame("mainpanel");
         WebElement tasks = driver.findElement(By.xpath("//a[@title='Tasks']"));

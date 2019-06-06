@@ -1,40 +1,33 @@
 package com.updateclassiccrm.testcases;
 
 
+import com.updateclassiccrm.base.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 
-public class LoginPageTest {
-    private WebDriver driver;
-    @Parameters({"url"})
-    @BeforeMethod(groups = {"End To End","Sanity"})
-    public void setup(String url) {
-        //Setup relative path to browser to start testing using selected browser
-        String chromeDriverPath = "src/main/resources/WebDrivers/chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-        //Initialize webdriver for selected browser
-        driver = new ChromeDriver();
-        //maximize window
-        driver.manage().window().maximize();
-        //navigate to application utl
-        driver.get(url);
+public class LoginPageTest extends TestBase {
+
+    public LoginPageTest() throws Exception {
+        super();
     }
 
-    @AfterMethod(groups = {"End To End","Sanity"})
+
+    @BeforeMethod
+    public void setup() {
+        initialize();
+    }
+
+    @AfterMethod()
     public void teardown() {
-        //delete cookies and close browser
-        driver.manage().deleteAllCookies();
-        driver.quit();
-        driver = null;
+        terminate();
     }
 
-    @Test(priority = 1, groups = {"End To End"})
+    @Test(priority = 1)
     public void urlTest() {
         //actualURL should return valid application url
         String actualURL = driver.getCurrentUrl();
@@ -42,7 +35,7 @@ public class LoginPageTest {
         Assert.assertEquals(actualURL, expectedURL, "URL not match");
     }
 
-    @Test(priority = 2, groups = {"End To End"})
+    @Test(priority = 2)
     public void titleTest() {
         //actualTitle should return valid application title
         String actualTitle = driver.getTitle();
@@ -50,14 +43,14 @@ public class LoginPageTest {
         Assert.assertEquals(actualTitle, expectedTitle, "Title not match");
     }
 
-    @Test(priority = 3, groups = {"Sanity"})
+    @Test(priority = 3)
     public void logoTest() {
         //Test if logo appear in home page
         WebElement logo = driver.findElement(By.xpath("//img[@class='img-responsive']"));
         Assert.assertTrue(logo.isDisplayed(), "Logo is not displayed");
     }
 
-    @Test(priority = 4, groups = {"End To End"})
+    @Test(priority = 4)
     public void loginTest() {
         //Testing login functionality with valid username <rahaouitesting> and valid password <Bmn123456>
         WebElement loginTextBox = driver.findElement(By.name("username"));
@@ -65,8 +58,10 @@ public class LoginPageTest {
         WebElement loginButtonSubmit = driver.findElement(By.xpath("//input[@value='Login']"));
 
         //Sending given data to login form
-        loginTextBox.sendKeys("rahaouitesting");
-        passwordTextBox.sendKeys("Bmn123456");
+        String userName=properties.getProperty("UserName");
+        String passWord = properties.getProperty("Password");
+        loginTextBox.sendKeys(userName);
+        passwordTextBox.sendKeys(passWord);
 
         //Click on Login button,it's a input of type submit
         loginButtonSubmit.submit();

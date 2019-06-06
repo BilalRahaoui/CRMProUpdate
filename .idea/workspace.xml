@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f37992f-b163-4321-bfad-c9da09d7c47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2f37992f-b163-4321-bfad-c9da09d7c47b" name="Default Changelist" comment="Add Listeners to project">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Bilal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Bilal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpdateClassicCRMCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateClassicCRMCucumber.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/listeners/Listener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/UpdateClassicCRMCucumber.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/listeners/Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/LoginPageTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,49 +25,20 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="UpdateClassicCRMCucumber" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#teardown#0;class#LoginPageTest#0" />
-                <element signature="method#urlTest#0;class#LoginPageTest#0" />
-                <element signature="method#titleTest#0;class#LoginPageTest#0" />
-                <element signature="method#logoTest#0;class#LoginPageTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/listeners/Listener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="8" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="500">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
                 <element signature="method#clickOnContact#0;class#HomePageTest#0" />
                 <element signature="method#addNewContact#0;class#HomePageTest#0" />
                 <element signature="method#clickOnDeals#0;class#HomePageTest#0" />
@@ -84,11 +48,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="method#urlTest#0;class#LoginPageTest#0" />
+                <element signature="method#logoTest#0;class#LoginPageTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/WebListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1380#1381#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
+                <element signature="e#1890#1891#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -105,6 +132,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber</find>
+      <find>@Override</find>
+      <find>@Override</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber</dir>
@@ -118,12 +147,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/SetupAndTeardown.java" />
         <option value="$USER_HOME$/.IdeaIC2019.1/system/temp-testng-customsuite.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testdata/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/listeners/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/prop.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/WebListener.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -135,13 +167,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -168,12 +204,44 @@
               <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,36 +257,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/WebDrivers" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources\Confinguration" />
+      <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources" />
+      <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources\Data" />
       <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources\WebDrivers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources\Data" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bilal\Desktop\UpdateClassicCRMCucumber\src\main\resources\WebDrivers" />
     </key>
   </component>
@@ -238,13 +300,14 @@
     <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UpdateClassicCRMCucumber" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="com.updateclassiccrm.testcases" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -301,6 +364,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" />
+      <item itemvalue="TestNG.com.updateclassiccrm.testcases" />
+      <item itemvalue="TestNG.LoginPageTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" />
@@ -318,37 +386,45 @@
       <option name="presentableId" value="Default" />
       <updated>1559496308725</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Listeners to project">
+      <created>1559663440499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559663440499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 23m 30s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 27m 22s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 28m 22s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 28m 41s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 29m 11s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 30m 40s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 31m 06s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 33m 19s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 36m 23s.xml">
       <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 14h 52m 06s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 15h 49m 50s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 16h 37m 22s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 16h 49m 17s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.04 at 17h 21m 38s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.06 at 13h 25m 30s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.06 at 14h 03m 11s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.06 at 14h 37m 46s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.06 at 14h 40m 30s.xml">
       <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -356,23 +432,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.198174" />
+      <window_info content_ui="combo" x="1026" y="195" width="289" height="634" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011261" side_tool="true" weight="0.32555556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2831661" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28539577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,6 +459,38 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" x="1026" y="195" width="289" height="634" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.2555261" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011261" side_tool="true" weight="0.32555556" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28603604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Listeners to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Listeners to project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/SetupAndTeardown.java" />
@@ -400,29 +508,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testdata/DataProvider.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="203">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testdata/DataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/listeners/Listener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Configuration/prop.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="method#urlTest#0;class#LoginPageTest#0" />
+            <element signature="method#logoTest#0;class#LoginPageTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="500">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
             <element signature="method#clickOnContact#0;class#HomePageTest#0" />
             <element signature="method#addNewContact#0;class#HomePageTest#0" />
             <element signature="method#clickOnDeals#0;class#HomePageTest#0" />
@@ -431,32 +554,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/events/WebDriverEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="203">
+          <caret line="203" column="7" selection-start-line="203" selection-start-column="7" selection-end-line="203" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/WebListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#teardown#0;class#LoginPageTest#0" />
-            <element signature="method#urlTest#0;class#LoginPageTest#0" />
-            <element signature="method#titleTest#0;class#LoginPageTest#0" />
-            <element signature="method#logoTest#0;class#LoginPageTest#0" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/listeners/Listener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="8" selection-end-column="38" />
+        <state relative-caret-position="-93">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,7 +598,14 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
