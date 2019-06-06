@@ -1,113 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="16" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-06T14:38:44Z" name="CRMPRO TEST AUTOMATION" finished-at="2019-06-06T14:40:29Z" duration-ms="105546">
+  <suite started-at="2019-06-06T16:53:34Z" name="CRMPRO TEST AUTOMATION" finished-at="2019-06-06T16:55:47Z" duration-ms="133295">
     <groups>
     </groups>
-    <test started-at="2019-06-06T14:38:44Z" name="End To End" finished-at="2019-06-06T14:40:29Z" duration-ms="105355">
+    <test started-at="2019-06-06T16:53:34Z" name="End To End" finished-at="2019-06-06T16:55:47Z" duration-ms="133295">
       <class name="com.updateclassiccrm.testcases.HomePageTest">
-        <test-method is-config="true" signature="setupAndLogin()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:29Z" name="setupAndLogin" finished-at="2019-06-06T14:39:41Z" duration-ms="12089" status="PASS">
+        <test-method is-config="true" signature="setupAndLogin(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:54:34Z" name="setupAndLogin" finished-at="2019-06-06T16:54:46Z" duration-ms="12785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnContact(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAndLogin -->
-        <test-method signature="clickOnContact()[pri:5, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:41Z" name="clickOnContact" finished-at="2019-06-06T14:39:42Z" duration-ms="1082" status="PASS">
+        <test-method signature="clickOnContact(java.lang.reflect.Method)[pri:5, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:54:46Z" name="clickOnContact" finished-at="2019-06-06T16:54:48Z" duration-ms="1705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnContact(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContact -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:42Z" name="teardown" finished-at="2019-06-06T14:39:43Z" duration-ms="1341" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:54:48Z" name="teardown" finished-at="2019-06-06T16:54:52Z" duration-ms="3655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setupAndLogin()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:43Z" name="setupAndLogin" finished-at="2019-06-06T14:39:55Z" duration-ms="12192" status="PASS">
+        <test-method is-config="true" signature="setupAndLogin(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:54:52Z" name="setupAndLogin" finished-at="2019-06-06T16:55:04Z" duration-ms="12673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.addNewContact(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAndLogin -->
-        <test-method signature="addNewContact()[pri:6, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:55Z" name="addNewContact" finished-at="2019-06-06T14:39:59Z" duration-ms="3441" status="PASS">
+        <test-method signature="addNewContact(java.lang.reflect.Method)[pri:6, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:04Z" name="addNewContact" finished-at="2019-06-06T16:55:08Z" duration-ms="3818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.addNewContact(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewContact -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:39:59Z" name="teardown" finished-at="2019-06-06T14:40:00Z" duration-ms="1431" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:08Z" name="teardown" finished-at="2019-06-06T16:55:12Z" duration-ms="3383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setupAndLogin()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:00Z" name="setupAndLogin" finished-at="2019-06-06T14:40:12Z" duration-ms="12120" status="PASS">
+        <test-method is-config="true" signature="setupAndLogin(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:12Z" name="setupAndLogin" finished-at="2019-06-06T16:55:24Z" duration-ms="12130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnDeals(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAndLogin -->
-        <test-method signature="clickOnDeals()[pri:7, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:12Z" name="clickOnDeals" finished-at="2019-06-06T14:40:13Z" duration-ms="1039" status="PASS">
+        <test-method signature="clickOnDeals(java.lang.reflect.Method)[pri:7, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:24Z" name="clickOnDeals" finished-at="2019-06-06T16:55:25Z" duration-ms="1575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnDeals(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnDeals -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:13Z" name="teardown" finished-at="2019-06-06T14:40:15Z" duration-ms="1254" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:25Z" name="teardown" finished-at="2019-06-06T16:55:29Z" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setupAndLogin()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:15Z" name="setupAndLogin" finished-at="2019-06-06T14:40:27Z" duration-ms="11943" status="PASS">
+        <test-method is-config="true" signature="setupAndLogin(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:29Z" name="setupAndLogin" finished-at="2019-06-06T16:55:42Z" duration-ms="12735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnTasks(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAndLogin -->
-        <test-method signature="clickOnTasks()[pri:8, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:27Z" name="clickOnTasks" finished-at="2019-06-06T14:40:28Z" duration-ms="1089" status="PASS">
+        <test-method signature="clickOnTasks(java.lang.reflect.Method)[pri:8, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:42Z" name="clickOnTasks" finished-at="2019-06-06T16:55:43Z" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.HomePageTest.clickOnTasks(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnTasks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@6dde5c8c]" started-at="2019-06-06T14:40:28Z" name="teardown" finished-at="2019-06-06T14:40:29Z" duration-ms="1424" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.HomePageTest@68ceda24]" started-at="2019-06-06T16:55:43Z" name="teardown" finished-at="2019-06-06T16:55:47Z" duration-ms="3574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.updateclassiccrm.testcases.HomePageTest -->
       <class name="com.updateclassiccrm.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:38:44Z" name="setup" finished-at="2019-06-06T14:38:53Z" duration-ms="9550" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:34Z" name="setup" finished-at="2019-06-06T16:53:44Z" duration-ms="10721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.urlTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="urlTest()[pri:1, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:38:53Z" name="urlTest" finished-at="2019-06-06T14:38:53Z" duration-ms="9" status="PASS">
+        <test-method signature="urlTest(java.lang.reflect.Method)[pri:1, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:44Z" name="urlTest" finished-at="2019-06-06T16:53:45Z" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.urlTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:38:53Z" name="teardown" finished-at="2019-06-06T14:38:54Z" duration-ms="966" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:45Z" name="teardown" finished-at="2019-06-06T16:53:48Z" duration-ms="3123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:38:54Z" name="setup" finished-at="2019-06-06T14:39:03Z" duration-ms="8612" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:48Z" name="setup" finished-at="2019-06-06T16:53:57Z" duration-ms="9186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:2, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:03Z" name="titleTest" finished-at="2019-06-06T14:39:03Z" duration-ms="6" status="PASS">
+        <test-method signature="titleTest(java.lang.reflect.Method)[pri:2, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:57Z" name="titleTest" finished-at="2019-06-06T16:53:58Z" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:03Z" name="teardown" finished-at="2019-06-06T14:39:04Z" duration-ms="977" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:53:58Z" name="teardown" finished-at="2019-06-06T16:54:01Z" duration-ms="3585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:04Z" name="setup" finished-at="2019-06-06T14:39:13Z" duration-ms="9031" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:01Z" name="setup" finished-at="2019-06-06T16:54:11Z" duration-ms="9945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.logoTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoTest()[pri:3, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:13Z" name="logoTest" finished-at="2019-06-06T14:39:13Z" duration-ms="41" status="PASS">
+        <test-method signature="logoTest(java.lang.reflect.Method)[pri:3, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:11Z" name="logoTest" finished-at="2019-06-06T16:54:12Z" duration-ms="512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.logoTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:13Z" name="teardown" finished-at="2019-06-06T14:39:14Z" duration-ms="893" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:12Z" name="teardown" finished-at="2019-06-06T16:54:15Z" duration-ms="3501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:14Z" name="setup" finished-at="2019-06-06T14:39:23Z" duration-ms="8670" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:15Z" name="setup" finished-at="2019-06-06T16:54:26Z" duration-ms="10414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:4, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:23Z" name="loginTest" finished-at="2019-06-06T14:39:27Z" duration-ms="4614" status="PASS">
+        <test-method signature="loginTest(java.lang.reflect.Method)[pri:4, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:26Z" name="loginTest" finished-at="2019-06-06T16:54:30Z" duration-ms="4595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.updateclassiccrm.testcases.LoginPageTest.loginTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@5123a213]" started-at="2019-06-06T14:39:27Z" name="teardown" finished-at="2019-06-06T14:39:29Z" duration-ms="1497" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.updateclassiccrm.testcases.LoginPageTest@281e3708]" started-at="2019-06-06T16:54:30Z" name="teardown" finished-at="2019-06-06T16:54:34Z" duration-ms="3117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.updateclassiccrm.testcases.LoginPageTest -->
     </test> <!-- End To End -->
-    <test started-at="2019-06-06T14:40:29Z" name="Sanity" finished-at="2019-06-06T14:40:29Z" duration-ms="0">
-    </test> <!-- Sanity -->
   </suite> <!-- CRMPRO TEST AUTOMATION -->
 </testng-results>

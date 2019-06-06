@@ -1,10 +1,10 @@
 package com.updateclassiccrm.base;
 
+import atu.testrecorder.ATUTestRecorder;
 import com.updateclassiccrm.util.WebListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -13,6 +13,7 @@ public class TestBase {
     protected static Properties properties = null;
     protected static EventFiringWebDriver e_driver = null;
     protected static WebListener webListener = null;
+    protected static ATUTestRecorder recorder;
 
     public TestBase() throws Exception {
         properties = new Properties();
@@ -37,6 +38,8 @@ public class TestBase {
         //navigate to application utl
         String url = properties.getProperty("URL");
         driver.get(url);
+
+
     }
 
     public static void terminate() {
@@ -45,4 +48,6 @@ public class TestBase {
         driver.quit();
         driver = null;
     }
+
+
 }

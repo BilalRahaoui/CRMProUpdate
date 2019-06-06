@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPRO TEST AUTOMATION]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="End To End(failed)">
+    <classes>
+      <class name="com.updateclassiccrm.testcases.HomePageTest">
+        <methods>
+          <include name="addNewContact"/>
+          <include name="setupAndLogin"/>
+          <include name="teardown"/>
+          <include name="clickOnDeals"/>
+          <include name="clickOnContact"/>
+          <include name="clickOnTasks"/>
+        </methods>
+      </class> <!-- com.updateclassiccrm.testcases.HomePageTest -->
+      <class name="com.updateclassiccrm.testcases.LoginPageTest">
+        <methods>
+          <include name="urlTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+          <include name="titleTest"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.updateclassiccrm.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- End To End(failed) -->
+</suite> <!-- Failed suite [CRMPRO TEST AUTOMATION] -->
