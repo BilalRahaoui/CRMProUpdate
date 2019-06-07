@@ -7,7 +7,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Data {
-    //Read data for invalid login test from src\main\resources\Data\invalid_login_data.xlsx
+    //Read data for test from src\main\resources\Data\fileName
     public static Object[][] getDataFromExcel(String fileName,String sheetName) throws Exception {
         //File path
         String invalidLoginDataPath = "src/main/resources/Data/" + fileName + ".xlsx";
