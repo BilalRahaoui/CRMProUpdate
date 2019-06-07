@@ -1,7 +1,6 @@
 package com.updateclassiccrm.testcases;
 
 import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
 import com.updateclassiccrm.base.TestBase;
 import com.updateclassiccrm.util.TestUtils;
 import org.openqa.selenium.By;
@@ -19,9 +18,10 @@ public class HomePageTest extends TestBase {
         super();
     }
 
+    @Parameters({"browser"})
     @BeforeMethod
-    public void setupAndLogin(Method method) throws Exception {
-        initialize();
+    public void setupAndLogin(Method method, String browser) throws Exception {
+        initialize(browser);
         String pathname = "test-output/video";
         recorder = new ATUTestRecorder(pathname, this.getClass().getSimpleName() + "--" + method.getName(), false);
         recorder.start();
@@ -44,7 +44,7 @@ public class HomePageTest extends TestBase {
         terminate();
     }
 
-    @Test(priority = 5)
+    @Test(priority = 6)
     public void clickOnContact(Method method) throws Exception {
         driver.switchTo().frame("mainpanel");
         Actions action = new Actions(driver);
@@ -52,29 +52,6 @@ public class HomePageTest extends TestBase {
         action.moveToElement(contact).click().build().perform();
         boolean status = driver.findElement(By.xpath("//td[contains(text(),'Status')]")).isDisplayed();
         Assert.assertTrue(status, "Click on contact failed,status is not displayed");
-        TestUtils.takeScreenSHot(method.getName());
-
-    }
-
-    @Test(priority = 6)
-    public void addNewContact(Method method) throws Exception {
-        driver.switchTo().frame("mainpanel");
-        Actions action = new Actions(driver);
-        WebElement contact = driver.findElement(By.xpath("//a[@title='Contacts']"));
-        WebElement addNewcontact = driver.findElement(By.xpath("//a[@title='New Contact']"));
-        action.moveToElement(contact).build().perform();
-        action.moveToElement(addNewcontact).click().build().perform();
-        WebElement first_Name = driver.findElement(By.id("first_name"));
-        WebElement last_Name = driver.findElement(By.id("surname"));
-        WebElement saveButon = driver.findElement(By.xpath("//input[@value='Save']"));
-        String firstNameText = "Bilal";
-        String lastNameText = "Rahaoui";
-        first_Name.sendKeys(firstNameText);
-        last_Name.sendKeys(lastNameText);
-        saveButon.submit();
-        String expectedNameText = driver.findElement(By.xpath("//tr[2]//td[1]//table[1]//tbody[1]//tr[2]//td[2]")).getText();
-        String actualNameText = firstNameText + " " + lastNameText;
-        Assert.assertTrue(expectedNameText.contains(actualNameText), "Test failed because name is not match");
         TestUtils.takeScreenSHot(method.getName());
 
     }

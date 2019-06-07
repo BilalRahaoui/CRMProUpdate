@@ -1,8 +1,8 @@
 package com.updateclassiccrm.testcases;
 
 import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
 import com.updateclassiccrm.base.TestBase;
+import com.updateclassiccrm.testData.Data;
 import com.updateclassiccrm.util.TestUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -19,10 +19,10 @@ public class LoginPageTest extends TestBase {
         super();
     }
 
-
+    @Parameters({"browser"})
     @BeforeMethod
-    public void setup(Method method) throws Exception {
-        initialize();
+    public void setup(Method method, String browser) throws Exception {
+        initialize(browser);
         String pathname = "test-output/video";
         recorder = new ATUTestRecorder(pathname, this.getClass().getSimpleName() + "--" + method.getName(), false);
         recorder.start();
@@ -34,7 +34,7 @@ public class LoginPageTest extends TestBase {
         recorder = null;
         terminate();
     }
-
+/*
     @Test(priority = 1)
     public void urlTest(Method method) throws Exception {
         //actualURL should return valid application url
@@ -64,7 +64,7 @@ public class LoginPageTest extends TestBase {
     }
 
     @Test(priority = 4)
-    public void loginTest(Method method) throws Exception {
+    public void validLoginTest(Method method) throws Exception {
         //Testing login functionality with valid username <rahaouitesting> and valid password <Bmn123456>
         WebElement loginTextBox = driver.findElement(By.name("username"));
         WebElement passwordTextBox = driver.findElement(By.name("password"));
@@ -81,19 +81,41 @@ public class LoginPageTest extends TestBase {
         //Assert that title is 'CRMPRO' using soft assertion
         SoftAssert soft = new SoftAssert();
 
-        String expectedloginTitle = "CRMPRO";
+        String expectedLoginTitle = "CRMPRO";
         String actualLoginTitle = driver.getTitle();
-        soft.assertEquals(expectedloginTitle, actualLoginTitle, "Title not match");
+        soft.assertEquals(expectedLoginTitle, actualLoginTitle, "Title not match");
         /*Assert that login was been successful 'Check if logo appears'
         Logo is inside a frame,need to switch to frame mainpanel*/
-        driver.switchTo().frame("mainpanel");
+        /*driver.switchTo().frame("mainpanel");
         WebElement logoCrmInLoginPage = driver.findElement(By.className("logo_text"));
         Boolean logoCrmInLoginPageIsDisplayed = logoCrmInLoginPage.isDisplayed();
         soft.assertTrue(logoCrmInLoginPageIsDisplayed, "Logo is not visible, so login test failed");
         soft.assertAll();
         TestUtils.takeScreenSHot(method.getName());
+    }
+*/
+    @Test(priority = 5,dataProvider = "invalidLoginData")
+    public void invalidLoginTest(Method method,String UserName,String Password) throws Exception {
+        //Testing login functionality with invalid username from invalid_login_data.xlsx excel sheet
+        WebElement loginTextBox = driver.findElement(By.name("username"));
+        WebElement passwordTextBox = driver.findElement(By.name("password"));
+        WebElement loginButtonSubmit = driver.findElement(By.xpath("//input[@value='Login']"));
+        //Sending given data to login form
+        loginTextBox.sendKeys(UserName);
+        passwordTextBox.sendKeys(Password);
+        //Click on Login button,it's a input of type submit
+        loginButtonSubmit.submit();
+        SoftAssert soft = new SoftAssert();
+        //Assert that login not pass 'Check that title is not CRMPRO'
+        String expectedTitle = "CRMPRO";
+        String actualTitle = driver.getTitle();
+        soft.assertNotEquals(actualTitle,expectedTitle,"Testing with invalid data failed");
+        soft.assertAll();
+        TestUtils.takeScreenSHot(method.getName());
 
     }
-
-
+    @DataProvider
+    public Object[][] invalidLoginData() throws Exception{
+        return Data.getDataFromExcel("invalid_login_data","invalidLoginDataSheet");
+    }
 }
