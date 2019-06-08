@@ -1,2 +1,4 @@
+com\updateclassiccrm\testData\Data.class
 com\updateclassiccrm\util\WebListener.class
+com\updateclassiccrm\util\TestUtils.class
 com\updateclassiccrm\base\TestBase.class

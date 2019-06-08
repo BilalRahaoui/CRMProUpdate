@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CRMPRO TEST AUTOMATION">
-    <test verbose="2" preserve-order="false" name="End To End">
+    <test verbose="10" preserve-order="false" name="End To End">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.updateclassiccrm.testcases.LoginPageTest"/>
-            <!-- <class name="com.updateclassiccrm.testcases.HomePageTest"/>
-            <class name="com.updateclassiccrm.testcases.ContactPageTest"/> -->
+            <class name="com.updateclassiccrm.testcases.HomePageTest"/>
+            <class name="com.updateclassiccrm.testcases.ContactPageTest"/>
         </classes>
     </test> <!--End To End-->
 </suite>

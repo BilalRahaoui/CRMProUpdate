@@ -8,7 +8,7 @@
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="invalidLoginTest" invocation-numbers="0"/>
+          <include name="invalidLoginTest"/>
         </methods>
       </class> <!-- com.updateclassiccrm.testcases.LoginPageTest -->
     </classes>

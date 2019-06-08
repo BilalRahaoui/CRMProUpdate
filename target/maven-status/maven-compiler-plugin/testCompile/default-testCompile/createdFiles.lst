@@ -1,2 +1,3 @@
 com\updateclassiccrm\testcases\LoginPageTest.class
 com\updateclassiccrm\testcases\HomePageTest.class
+com\updateclassiccrm\testcases\ContactPageTest.class
