@@ -4,6 +4,7 @@
     <test verbose="10" preserve-order="false" name="End To End">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
+            <class name="com.updateclassiccrm.testcases.Config"/>
             <class name="com.updateclassiccrm.testcases.LoginPageTest"/>
             <class name="com.updateclassiccrm.testcases.HomePageTest"/>
             <class name="com.updateclassiccrm.testcases.ContactPageTest"/>

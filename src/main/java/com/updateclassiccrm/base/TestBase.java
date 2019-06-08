@@ -1,6 +1,9 @@
 package com.updateclassiccrm.base;
 
 import atu.testrecorder.ATUTestRecorder;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.updateclassiccrm.util.WebListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,12 +17,16 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class TestBase {
-    protected static WebDriver driver = null;
-    protected static Properties properties = null;
-    protected static EventFiringWebDriver e_driver = null;
-    protected static WebListener webListener = null;
+    protected static WebDriver driver;
+    protected static Properties properties;
+    protected static EventFiringWebDriver e_driver;
+    protected static WebListener webListener;
     protected static ATUTestRecorder recorder;
     protected static WebDriverWait wait;
+    protected static ExtentReports extent;
+    protected static ExtentTest logger;
+
+
 
     public TestBase() throws Exception {
         properties = new Properties();

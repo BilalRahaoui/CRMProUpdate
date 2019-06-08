@@ -1,4 +1,7 @@
+com\updateclassiccrm\Pages\ContactPage.class
 com\updateclassiccrm\testData\Data.class
+com\updateclassiccrm\Pages\HomePage.class
+com\updateclassiccrm\Pages\LoginPage.class
 com\updateclassiccrm\util\WebListener.class
 com\updateclassiccrm\util\TestUtils.class
 com\updateclassiccrm\base\TestBase.class

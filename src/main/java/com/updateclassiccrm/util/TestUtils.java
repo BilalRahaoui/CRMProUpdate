@@ -15,7 +15,7 @@ public class TestUtils extends TestBase {
     public static void takeScreenSHot(String screenshotName) throws Exception {
         //Take screenshot
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String pathname = "test-output/screenshot" + "/" + screenshotName + ".png";
+        String pathname = "test-output/Report/SnapShot/" + screenshotName + ".png";
         FileUtils.copyFile(srcFile, new File(pathname));
     }
 

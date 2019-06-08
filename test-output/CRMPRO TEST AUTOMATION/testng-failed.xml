@@ -4,6 +4,13 @@
   <test thread-count="5" name="End To End(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.updateclassiccrm.testcases.ContactPageTest">
+        <methods>
+          <include name="addNewContact"/>
+          <include name="teardown"/>
+          <include name="setupAndLogin"/>
+        </methods>
+      </class> <!-- com.updateclassiccrm.testcases.ContactPageTest -->
       <class name="com.updateclassiccrm.testcases.LoginPageTest">
         <methods>
           <include name="setup"/>

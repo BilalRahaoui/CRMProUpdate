@@ -1,6 +1,7 @@
 package com.updateclassiccrm.testcases;
 
 import atu.testrecorder.ATUTestRecorder;
+import com.relevantcodes.extentreports.LogStatus;
 import com.updateclassiccrm.Pages.ContactPage;
 import com.updateclassiccrm.Pages.HomePage;
 import com.updateclassiccrm.Pages.LoginPage;
@@ -9,6 +10,7 @@ import com.updateclassiccrm.base.TestBase;
 import com.updateclassiccrm.testData.Data;
 import com.updateclassiccrm.util.TestUtils;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
@@ -25,8 +27,10 @@ public class ContactPageTest extends TestBase {
     @Parameters({"browser"})
     @BeforeMethod
     public void setupAndLogin(Method method, String browser) throws Exception {
+        String methodName = this.getClass().getSimpleName() + "--" + method.getName();
+        logger = extent.startTest(methodName);
         initialize(browser);
-        String pathname = "test-output/video";
+        String pathname = "test-output/Report/Videos";
         loginPage = new LoginPage();
         recorder = new ATUTestRecorder(pathname, this.getClass().getSimpleName() + "--" + method.getName(), false);
         recorder.start();
@@ -38,10 +42,24 @@ public class ContactPageTest extends TestBase {
     }
 
     @AfterMethod
-    public void teardown() throws Exception {
+    public void teardown(Method method,ITestResult result) throws Exception {
         recorder.stop();
         recorder = null;
+        if (result.getStatus() == ITestResult.SUCCESS) {
+            logger.log(LogStatus.PASS, "Test success!");
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+        } else if (result.getStatus() == ITestResult.SKIP) {
+            logger.log(LogStatus.SKIP, "Test skipped!");
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+        } else if (result.getStatus() == ITestResult.FAILURE) {
+            logger.log(LogStatus.FAIL, result.getThrowable());
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+        }
         terminate();
+
     }
 
     @Test(priority = 9, dataProvider = "contactData")
