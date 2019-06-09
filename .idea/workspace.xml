@@ -2,69 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37992f-b163-4321-bfad-c9da09d7c47b" name="Default Changelist" comment="Add Listeners to project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpdateClassicCRMCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateClassicCRMCucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testData/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testData/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/updateclassiccrm/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/updateclassiccrm/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/updateclassiccrm/util/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/updateclassiccrm/util/TestUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRMPRO TEST AUTOMATION/End To End.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRMPRO TEST AUTOMATION/End To End.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRMPRO TEST AUTOMATION/End To End.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRMPRO TEST AUTOMATION/End To End.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.updateclassiccrm.testcases.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.updateclassiccrm.testcases.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.updateclassiccrm.testcases.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.updateclassiccrm.testcases.LoginPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRMPRO TEST AUTOMATION/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/ContactPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/ContactPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/updateclassiccrm/testcases/LoginPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/End To End.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/End To End.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/End To End.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/End To End.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/CRMPRO TEST AUTOMATION/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.ContactPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.ContactPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.HomePageTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.updateclassiccrm.testcases.LoginPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/addNewContact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/clickOnContact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/clickOnDeals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/clickOnTasks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/invalidLoginTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/logoTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/titleTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/urlTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshot/validLoginTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/CRMPRO TEST AUTOMATION/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/ContactPageTest--addNewContact.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/HomePageTest--clickOnContact.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/HomePageTest--clickOnDeals.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/HomePageTest--clickOnTasks.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/LoginPageTest--invalidLoginTest.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/LoginPageTest--logoTest.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/LoginPageTest--titleTest.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/LoginPageTest--urlTest.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/video/LoginPageTest--validLoginTest.mov" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,23 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="32" column="106" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="275">
+              <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+            <state relative-caret-position="118">
+              <caret line="48" column="118" selection-start-line="48" selection-start-column="118" selection-end-line="48" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="296">
+              <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -181,13 +130,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/Pages/ContactPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/testData/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/main.java" />
       </list>
     </option>
   </component>
@@ -213,8 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,33 +215,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
-              <item name="testData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="updateclassiccrm" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UpdateClassicCRMCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UpdateClassicCRMCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -341,6 +265,19 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.updateclassiccrm.util.main" />
+      <module name="UpdateClassicCRMCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.updateclassiccrm.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UpdateClassicCRMCucumber" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -412,10 +349,12 @@
       <item itemvalue="TestNG.C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" />
       <item itemvalue="TestNG.com.updateclassiccrm.testcases" />
       <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="Application.main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -441,15 +380,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.08 at 17h 21m 37s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.08 at 18h 34m 06s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.08 at 22h 23m 52s.xml">
-      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.08 at 22h 42m 49s.xml">
       <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -471,12 +401,20 @@
     <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.08 at 23h 44m 25s.xml">
       <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.09 at 13h 28m 41s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.09 at 13h 49m 38s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Bilal_Desktop_UpdateClassicCRMCucumber_testng_xml - 2019.06.09 at 13h 56m 29s.xml">
+      <configuration name="C:/Users/Bilal/Desktop/UpdateClassicCRMCucumber/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1026" y="195" width="289" height="634" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.1734694" />
+      <window_info content_ui="combo" x="1026" y="195" width="289" height="634" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.17615467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,8 +422,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5011261" side_tool="true" weight="0.32555556" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.24526198" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" weight="0.24526198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,20 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -706,20 +630,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="32" column="106" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="106" />
+        <state relative-caret-position="275">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/TestUtils.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="815">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,18 +666,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        <state relative-caret-position="118">
+          <caret line="48" column="118" selection-start-line="48" selection-start-column="118" selection-end-line="48" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/ContactPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/updateclassiccrm/util/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/updateclassiccrm/testcases/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

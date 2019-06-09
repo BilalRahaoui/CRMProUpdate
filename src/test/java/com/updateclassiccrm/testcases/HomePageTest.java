@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
+import java.io.File;
 import java.lang.reflect.Method;
 
 public class HomePageTest extends TestBase {
@@ -40,22 +41,26 @@ public class HomePageTest extends TestBase {
     }
 
     @AfterMethod
-    public void teardown(Method method,ITestResult result) throws Exception {
+    public void teardown(Method method, ITestResult result) throws Exception {
         recorder.stop();
         recorder = null;
+        File photo = new File("test-output/Report/SnapShot/" + this.getClass().getSimpleName() + "--" + method.getName() + ".png");
+        File video = new File("test-output/Report/Videos/" + this.getClass().getSimpleName() + "--" + method.getName() + ".mov");
+        String photopath = photo.getAbsolutePath();
+        String videopath = video.getAbsolutePath();
 
         if (result.getStatus() == ITestResult.SUCCESS) {
             logger.log(LogStatus.PASS, "Test success!");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         } else if (result.getStatus() == ITestResult.SKIP) {
             logger.log(LogStatus.SKIP, "Test skipped!");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         } else if (result.getStatus() == ITestResult.FAILURE) {
             logger.log(LogStatus.FAIL, result.getThrowable());
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         }
         terminate();
     }
@@ -65,7 +70,7 @@ public class HomePageTest extends TestBase {
         homePage.clickOnContact();
         boolean statusIsDisplayed = homePage.isStatueDisplayed();
         Assert.assertTrue(statusIsDisplayed, "Click on contact failed,status is not displayed");
-        TestUtils.takeScreenSHot(method.getName());
+        TestUtils.takeScreenSHot(this.getClass().getSimpleName() + "--" + method.getName());
 
     }
 
@@ -74,7 +79,7 @@ public class HomePageTest extends TestBase {
         homePage.clickOnDeals();
         boolean keywordIsDisplayed = homePage.isKeywordDisplayed();
         Assert.assertTrue(keywordIsDisplayed, "Click on Deals failed,keyword is not displayed");
-        TestUtils.takeScreenSHot(method.getName());
+        TestUtils.takeScreenSHot(this.getClass().getSimpleName() + "--" + method.getName());
 
     }
 
@@ -83,7 +88,7 @@ public class HomePageTest extends TestBase {
         homePage.clickOnTasks();
         boolean keywordIsDisplayed = homePage.isKeywordDisplayed();
         Assert.assertTrue(keywordIsDisplayed, "Click on Tasks failed,keyword is not displayed");
-        TestUtils.takeScreenSHot(method.getName());
+        TestUtils.takeScreenSHot(this.getClass().getSimpleName() + "--" + method.getName());
 
     }
 }

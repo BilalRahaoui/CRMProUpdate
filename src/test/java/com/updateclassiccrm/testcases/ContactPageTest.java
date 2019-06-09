@@ -13,6 +13,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
+import java.io.File;
 import java.lang.reflect.Method;
 
 public class ContactPageTest extends TestBase {
@@ -45,18 +46,23 @@ public class ContactPageTest extends TestBase {
     public void teardown(Method method,ITestResult result) throws Exception {
         recorder.stop();
         recorder = null;
+        File photo = new File("test-output/Report/SnapShot/" + this.getClass().getSimpleName() + "--" + method.getName() + ".png");
+        File video = new File("test-output/Report/Videos/" + this.getClass().getSimpleName() + "--" + method.getName() + ".mov");
+        String photopath = photo.getAbsolutePath();
+        String videopath = video.getAbsolutePath();
+
         if (result.getStatus() == ITestResult.SUCCESS) {
             logger.log(LogStatus.PASS, "Test success!");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         } else if (result.getStatus() == ITestResult.SKIP) {
             logger.log(LogStatus.SKIP, "Test skipped!");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         } else if (result.getStatus() == ITestResult.FAILURE) {
             logger.log(LogStatus.FAIL, result.getThrowable());
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/SnapShot/" + result.getName() + ".png" + "'><span class='lable info'>Download Snapshot</span></a>");
-            logger.log(LogStatus.PASS, "<a href='test-output/Report/Videos/" + result.getName() + ".mov" + "'><span class='lable info'>Download Video</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + photopath + "'><span class='lable info'>Download Snapshot</span></a>");
+            logger.log(LogStatus.PASS, "<a href='" + videopath + "'><span class='lable info'>Download Video</span></a>");
         }
         terminate();
 
@@ -69,7 +75,7 @@ public class ContactPageTest extends TestBase {
         String expectedNameText = contactPage.checkIfDataSent();
         String actualNameText = firstName + " " + lastName;
         Assert.assertTrue(expectedNameText.contains(actualNameText), "Test failed because name is not match");
-        TestUtils.takeScreenSHot(method.getName());
+        TestUtils.takeScreenSHot(this.getClass().getSimpleName() + "--" + method.getName());
 
     }
 

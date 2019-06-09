@@ -6,8 +6,8 @@
         <classes>
             <class name="com.updateclassiccrm.testcases.Config"/>
             <class name="com.updateclassiccrm.testcases.LoginPageTest"/>
-            <class name="com.updateclassiccrm.testcases.HomePageTest"/>
-            <class name="com.updateclassiccrm.testcases.ContactPageTest"/>
+            <!--<class name="com.updateclassiccrm.testcases.HomePageTest"/>
+            <class name="com.updateclassiccrm.testcases.ContactPageTest"/>-->
         </classes>
     </test> <!--End To End-->
 </suite>
